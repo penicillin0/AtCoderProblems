@@ -1711,10 +1711,10 @@
   resolved "https://registry.yarnpkg.com/@types/d3-path/-/d3-path-1.0.9.tgz#73526b150d14cd96e701597cbf346cfd1fd4a58c"
   integrity sha512-NaIeSIBiFgSC6IGUBjZWcscUJEq7vpVu7KthHN8eieTV9d9MqkSOZLH4chq1PmcKy06PNe3axLeKmRIyxJ+PZQ==
 
-"@types/d3-shape@*":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/d3-shape/-/d3-shape-2.0.0.tgz#61aa065726f3c2641aedc59c3603475ab11aeb2f"
-  integrity sha512-NLzD02m5PiD1KLEDjLN+MtqEcFYn4ZL9+Rqc9ZwARK1cpKZXd91zBETbe6wpBB6Ia0D0VZbpmbW3+BsGPGnCpA==
+"@types/d3-shape@^1":
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/@types/d3-shape/-/d3-shape-1.3.8.tgz#c3c15ec7436b4ce24e38de517586850f1fea8e89"
+  integrity sha512-gqfnMz6Fd5H6GOLYixOZP/xlrMtJms9BaS+6oWxTKHNqPGZ93BkWWupQSCYm6YHqx6h9wjRupuJb90bun6ZaYg==
   dependencies:
     "@types/d3-path" "^1"
 
@@ -1943,19 +1943,13 @@
     "@types/react" "*"
     popper.js "^1.14.1"
 
-"@types/recharts-scale@*":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@types/recharts-scale/-/recharts-scale-1.0.0.tgz#348c9220d6d9062c44a9d585d686644a97f7e25d"
-  integrity sha512-HR/PrCcxYb2YHviTqH7CMdL1TUhUZLTUKzfrkMhxm1HTa5mg/QtP8XMiuSPz6dZ6wecazAOu8aYZ5DqkNlgHHQ==
-
-"@types/recharts@1.1.14":
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/@types/recharts/-/recharts-1.1.14.tgz#771146b9ea5232eb512bc43f4b2735e2a8632b84"
-  integrity sha512-5Rq0vIt4SUTJWa2Rs1qpObzhgNZNz0WMt7/Ltkfoc9MbNGlkeF2oozYHkzcTMBVgdrqTbfGxs01lme3EaMsGzw==
+"@types/recharts@1.8.23":
+  version "1.8.23"
+  resolved "https://registry.yarnpkg.com/@types/recharts/-/recharts-1.8.23.tgz#eeb6c52c6b2b916e9383bd5cf8fb5fd941c9c6fe"
+  integrity sha512-O/mIPm9f6dwRWfenOI3GQwsGta3x1YWjwqXOCZqC0MATQ6C+A+Jc8VxFnSUr4N3uYv64zkq90RwXFaMNbhJKvg==
   dependencies:
-    "@types/d3-shape" "*"
+    "@types/d3-shape" "^1"
     "@types/react" "*"
-    "@types/recharts-scale" "*"
 
 "@types/resolve@0.0.8":
   version "0.0.8"
